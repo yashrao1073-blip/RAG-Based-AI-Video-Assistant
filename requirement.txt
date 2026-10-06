@@ -1,0 +1,48 @@
+# UI
+streamlit
+
+# LangChain
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+
+# LLM (Mistral)
+langchain-mistralai
+mistralai
+
+# RAG
+chromadb
+langchain-chroma
+sentence-transformers
+huggingface-hub
+
+# Embeddings
+transformers
+torch
+
+# Whisper (Local)
+openai-whisper
+ffmpeg-python
+pydub
+yt-dlp
+
+# Translation
+deep-translator
+
+# PDF Export
+reportlab
+
+# Environment Variables
+python-dotenv
+
+# Data Processing
+pandas
+numpy
+
+# Tokenization
+tiktoken
+
+# Utilities
+requests
+tqdm
