@@ -8,7 +8,7 @@ import streamlit as st
 from main import run_pipeline
 from core.rag_engine import ask_question
 
-st.set_page_config(page_title="AI Video Assistant", page_icon="🎬", layout="wide")
+st.set_page_config(page_title="Meeting Companion - Find Video Insights", page_icon="🎬", layout="wide")
 
 STEPS = [
     ("audio", "Prepare audio"),
@@ -74,7 +74,7 @@ def reset_analysis() -> None:
 
 
 with st.sidebar:
-    st.markdown("### 🎬 AI Video Assistant")
+    st.markdown("### 🎬 AI Meeting Companion")
     st.caption("Meeting intelligence, without the busywork.")
     st.divider()
     st.markdown("**Pipeline status**")
